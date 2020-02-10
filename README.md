@@ -4,6 +4,7 @@ An experimental comparison of deep and simple models for semantic tagging
 # Dependency
 - pytorch
 - pytorch-pretrained-bert
+- sklearn
 
 # Run
 -Step 1: clone the repository
@@ -21,6 +22,8 @@ An experimental comparison of deep and simple models for semantic tagging
     cd script
     
     sh bert.sh
+
+    cat result/bert.log
 
 # Datasets
 
