@@ -49,4 +49,4 @@ An experimental comparison of deep and simple models for semantic tagging
 | BOOK\*  | 1,139,448  | 0.5         | Spoiler    |
 
 ## Reference 
-**[Deep or Simple models for Semantic Tagging? It Depends on your Data]**
+Deep or Simple models for Semantic Tagging? It Depends on your Data
