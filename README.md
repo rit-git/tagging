@@ -6,6 +6,13 @@ An experimental comparison of deep and simple models for semantic tagging
 - pytorch-pretrained-bert
 - sklearn
 
+# Model
+- BERT (Bidirectional Encoder representations from Transformers)
+- LSTM (Long Short-Term Memory)
+- CNN (Convolutional Neural Network)
+- LR (Logistic Regression)
+- SVM (Support Vector Machine)
+
 # Run
 -Step 1: clone the repository
 
@@ -25,9 +32,9 @@ An experimental comparison of deep and simple models for semantic tagging
 
     cat result/bert.log
 
-# Datasets
+# Dataset
 
-| Dataset | #Record    | %Positive   | App        |
+| Dataset | #Record    | %Positive   | Task       |
 |---------|------------|-------------|------------|
 | SUGG    | 9,092      | 0.261878575 | Suggestion |
 | HOTEL   | 7,534      | 0.054021768 | Suggestion |
