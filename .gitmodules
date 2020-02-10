@@ -1,0 +1,3 @@
+[submodule "pyfunctor"]
+	path = pyfunctor
+	url = https://github.com/lijinf2/pyfunctor.git
