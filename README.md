@@ -1,37 +1,6 @@
 # Tagging
 An experimental comparison of deep and simple models for semantic tagging
 
-# Dependency
-- pytorch
-- pytorch-pretrained-bert
-- sklearn
-
-# Model
-- BERT (Bidirectional Encoder representations from Transformers)
-- LSTM (Long Short-Term Memory)
-- CNN (Convolutional Neural Network)
-- LR (Logistic Regression)
-- SVM (Support Vector Machine)
-
-# Run
--Step 1: clone the repository
-
-    git clone --recursive https://github.com/rit-git/tagging.git
-
-    cd tagging
-
--Step 2: install dependency
-
-    pip install -r requirements.txt
-
--Step 2: evaluation
-
-    cd script
-    
-    sh bert.sh
-
-    cat result/bert.log
-
 # Dataset
 
 | Dataset | #Record    | %Positive   | Task       |
@@ -57,6 +26,37 @@ An experimental comparison of deep and simple models for semantic tagging
 | YELP    | 560,000    | 0.5         | Sentiment  |
 | FUNNY\* | 244,428    | 0.5         | Humor      |
 | BOOK\*  | 1,139,448  | 0.5         | Spoiler    |
+
+# Model
+- BERT (Bidirectional Encoder representations from Transformers)
+- LSTM (Long Short-Term Memory)
+- CNN (Convolutional Neural Network)
+- LR (Logistic Regression)
+- SVM (Support Vector Machine)
+
+# Dependency
+- pytorch
+- pytorch-pretrained-bert
+- sklearn
+
+# Run
+-Step 1: clone the repository
+
+    git clone --recursive https://github.com/rit-git/tagging.git
+
+    cd tagging
+
+-Step 2: install dependency
+
+    pip install -r requirements.txt
+
+-Step 2: evaluation
+
+    cd script
+    
+    sh bert.sh
+
+    cat result/bert.log
 
 ## Reference 
 Deep or Simple models for Semantic Tagging? It Depends on your Data
