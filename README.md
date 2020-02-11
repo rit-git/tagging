@@ -56,7 +56,7 @@ An experimental comparison of deep and simple models for semantic tagging
     
     sh bert.sh
 
-    cat result/bert.log
+    cat result/bert.csv
 
 ## Reference 
 Deep or Simple models for Semantic Tagging? It Depends on your Data
