@@ -729,12 +729,13 @@ def main():
         log_row.append(result['f1'])
         log_row.append(result['train_second'])
         log_row.append(result['test_second'])
-	    # append metric report for negative label
-        (pre, rec, fs, sup) = precision_recall_fscore_support(y_true=all_label_ids.numpy(), y_pred=preds, pos_label=0, average='binary')
-        log_row.append("")
-        log_row.append(pre)
-        log_row.append(rec)
-        log_row.append(fs)
+
+	    ## append metric report for negative label
+        #(pre, rec, fs, sup) = precision_recall_fscore_support(y_true=all_label_ids.numpy(), y_pred=preds, pos_label=0, average='binary')
+        #log_row.append("")
+        #log_row.append(pre)
+        #log_row.append(rec)
+        #log_row.append(fs)
         csv_handler.append_row(log_file_path, log_row)
 
 if __name__ == "__main__":
