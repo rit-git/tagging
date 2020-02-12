@@ -50,7 +50,7 @@ An experimental comparison of deep and simple models for semantic tagging
 
     pip install -r requirements.txt
 
--Step 2: evaluation
+-Step 3: evaluation
 
     cd script
     
