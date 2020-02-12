@@ -34,7 +34,7 @@ text_clf = Pipeline([('vect',
                       CountVectorizer(ngram_range=(1, 2))),
                       #CountVectorizer(ngram_range=(1, 2), analyzer='word', tokenizer = lambda doc : doc.split(), token_pattern=r"*")),
                       #CountVectorizer()),
-                                          #('tfidf', TfidfTransformer()),
+                                          ('tfidf', TfidfTransformer()),
                                           ('clf', LogisticRegression(class_weight='balanced', random_state=seed, solver='liblinear')),
                                           ])
 
