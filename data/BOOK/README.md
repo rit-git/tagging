@@ -14,4 +14,4 @@
     sh split.sh
 
 # Reference
-**[Identifying Humor in Reviews using Background Text Sources. (EMNLP 2017)](https://www.aclweb.org/anthology/D17-1051.pdf)**.
+**[Fine-Grained Spoiler Detection from Large-Scale Review Corpora (ACL 2019)](https://www.aclweb.org/anthology/P19-1248.pdf)**.
