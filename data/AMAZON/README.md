@@ -1,7 +1,7 @@
 # Obtain AMAZON dataset
 -Step 1: download amazon polarity classification dataset
 
-    download amazon_review_polarity_csv.tar.gz from https://drive.google.com/drive/u/1/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
+    download amazon_review_polarity_csv.tar.gz from http://goo.gl/JyCnZq 
 
 -Step 2: uncompress
 
