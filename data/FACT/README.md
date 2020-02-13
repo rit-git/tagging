@@ -1,4 +1,4 @@
-# Obtain REQ dataset
+# Obtain FACT dataset
 
     sh download.sh
 
