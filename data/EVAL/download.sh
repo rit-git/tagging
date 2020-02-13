@@ -1,4 +1,4 @@
-# Obtain PARA dataset
+# Obtain argument dataset
 wget http://xinyuhua.github.io/resources/naacl2019/naacl19_dataset.zip
 
 unzip -o naacl19_dataset.zip
