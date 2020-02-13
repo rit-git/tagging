@@ -11,7 +11,7 @@ typename = sys.argv[1]
 assert(typename in {'evaluation', 'request', 'fact', 'reference', 'quote'})
 
 def extract(data, typename):
-    dataset = csv_handler.csv_readlines("../EVAL/origin/" + data + "set.csv")
+    dataset = csv_handler.csv_readlines("./dataset/" + data + "set.csv")
     dataset = transformer.indexleft_func(dataset)
     dataset = transformer.map_func(dataset, lambda row : (row[0], row[1][1], row[1][2]))
     output_path = "./" + data + ".csv"
