@@ -9,4 +9,4 @@ python extract_tv.py
 
 # clean
 rm -rf spoilers.tar.gz 
-rm -rf spoiler
+rm -rf spoilers
