@@ -11,7 +11,7 @@ typename = sys.argv[1]
 assert(typename in {'Argument_against', 'Argument_for', 'NoArgument'})
 
 def extract(data, typename):
-    dataset = csv_handler.csv_readlines("../ARGUE/origin/" + data + "_raw.csv")
+    dataset = csv_handler.csv_readlines("./dataset/" + data + "_raw.csv")
     output_path = "./" + data + ".csv"
 
     def func_1(triplet):
