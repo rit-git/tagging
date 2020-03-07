@@ -5,27 +5,27 @@ An experimental comparison of deep and simple models for semantic tagging
 
 | Dataset | #Record | %Positive | Quality | Task       |
 |---------|---------|-----------|---------|------------|
-| SUGG    | 9K      | 0.26      | clean   | Suggestion |
-| HOTEL   | 8K      | 0.05      | clean   | Suggestion |
+| SUGG    | 9K      | 0.26      | clean   | Tip        |
+| HOTEL   | 8K      | 0.05      | clean   | Tip        |
 | SENT    | 11k     | 0.10      | clean   | Tip        |
 | PARA    | 7K      | 0.17      | clean   | Tip        |
 | HOMO    | 2K      | 0.71      | clean   | Humor      |
 | HETER   | 2K      | 0.71      | clean   | Humor      |
-| TV      | 13K     | 0.53      | clean   | Humor      |
-| EVAL    | 10K     | 0.38      | clean   | Spoiler    |
-| REQ     | 10K     | 0.18      | clean   | Spoiler    |
+| FUNNY   | 5M      | 0.03      | dirty   | Humor      |
+| FUNNY\* | 244K    | 0.50      | dirty   | Humor      |
+| TV      | 13K     | 0.53      | clean   | Spoiler    |
+| BOOK    | 18M     | 0.03      | dirty   | Spoiler    |
+| BOOK\*  | 1M      | 0.50      | dirty   | Spoiler    |
+| EVAL    | 10K     | 0.38      | clean   | Argument   |
+| REQ     | 10K     | 0.18      | clean   | Argument   |
 | FACT    | 10K     | 0.36      | clean   | Argument   |
 | REF     | 10K     | 0.02      | clean   | Argument   |
 | QUOTE   | 10K     | 0.02      | clean   | Argument   |
 | ARGUE   | 23K     | 0.44      | clean   | Argument   |
 | SUPPORT | 23K     | 0.19      | clean   | Argument   |
 | AGAINST | 23K     | 0.24      | clean   | Argument   |
-| FUNNY   | 5M      | 0.03      | dirty   | Argument   |
-| BOOK    | 18M     | 0.03      | dirty   | Argument   |
 | AMAZON  | 4M      | 0.50      | clean   | Sentiment  |
 | YELP    | 560K    | 0.50      | clean   | Sentiment  |
-| FUNNY\* | 244K    | 0.50      | dirty   | Humor      |
-| BOOK\*  | 1M      | 0.50      | dirty   | Spoiler    |
 
 # Model
 - BERT (Bidirectional Encoder representations from Transformers)
