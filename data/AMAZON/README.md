@@ -11,7 +11,7 @@
 
     python transform.py amazon_review_polarity_csv/train.csv train.csv
 
-    python transform.py amazon_review_polarity_csv/test.csv test.csv
+    python transform.py amazon_review_polarity_csv/test.csv dev.csv
 
 # Reference
 **[Character-level Convolutional Networks for Text Classification (NIPS 2016)](https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf)**.
