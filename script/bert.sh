@@ -22,9 +22,9 @@ do
         --data_dir $DATA_DIR \
         --bert_model bert-base-uncased \
         --max_seq_length 128 \
-        --train_batch_size 64 \
+        --train_batch_size 32 \
         --learning_rate 2e-5 \
-        --num_train_epochs 3.0 \
+        --num_train_epochs 5.0 \
         --output_dir $LOG_DIR \
         --log_file_path $LOG_FILE_PATH
 
