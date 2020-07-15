@@ -1,9 +1,9 @@
 # Dataset
 
-| Dataset | #Record | %Positive | Quality | Task                      |
-|---------|---------|-----------|---------|---------------------------|
-| BIO     | 9K      | 0.26      | clean   | Multi-class classification|
-| DEF     | 8K      | 0.05      | clean   | Multi-class classification|
+| Dataset | #Record | Quality | Task                      |
+|---------|---------|---------|---------------------------|
+| BIO     | 470K    | clean   | Multi-class classification|
+| DEF     | 18K     | clean   | Multi-class classification|
 
 # Model
 - ALBERT (A Lite BERT)
