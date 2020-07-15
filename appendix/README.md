@@ -17,3 +17,6 @@
 - sklearn
 - transformers
 - xgboost
+
+# Reference 
+**[Deep or Simple models for Semantic Tagging? It Depends on your Data](https://arxiv.org/abs/2007.05651)**
