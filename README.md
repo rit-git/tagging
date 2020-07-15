@@ -41,11 +41,11 @@ An experimental comparison of deep and simple models for semantic tagging
 - XGboost (A Scalabel Tree Boosting System)
 
 # Dependency
-- pytorch
-- pytorch-pretrained-bert
-- sklearn
-- transformers
-- xgboost
+- pytorch 1.2.0
+- pytorch-pretrained-bert 0.6.2
+- scikit-learn 0.23.1
+- transformers 2.3.0
+- xgboost 1.1.0
 
 # Run
 -Step 1: clone the repository
