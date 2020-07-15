@@ -33,6 +33,10 @@ An experimental comparison of deep and simple models for semantic tagging
 - CNN (Convolutional Neural Network)
 - LR (Logistic Regression)
 - SVM (Support Vector Machine)
+- ALBERT (A Lite BERT)
+- ROBERTA (A Robustly Optimized BERT Pretraining Approach)
+- NB (Naive Bayes)
+- XGboost (A Scalabel Tree Boosting System)
 
 # Dependency
 - pytorch
