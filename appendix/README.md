@@ -15,4 +15,5 @@
 - pytorch
 - pytorch-pretrained-bert
 - sklearn
-- transformer
+- transformers
+- xgboost
