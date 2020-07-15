@@ -8,8 +8,12 @@
 # Model
 - ALBERT (A Lite BERT)
 - ROBERTA (A Robustly Optimized BERT Pretraining Approach)
-- Naive Bayes
+- NB (Naive Bayes)
 - XGBoost (A Scalable Tree Boosting System) 
+
+# Metric
+- Accuracy
+- AUC (Area under the ROC Curve)
 
 # Dependency
 - pytorch
