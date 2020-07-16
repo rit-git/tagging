@@ -21,6 +21,7 @@
 - scikit-learn 0.23.1
 - transformers 2.3.0
 - xgboost 1.1.0
+- q (SQL on CSV)
 
 # Reference 
 **[Deep or Simple models for Semantic Tagging? It Depends on your Data](https://arxiv.org/abs/2007.05651)**
