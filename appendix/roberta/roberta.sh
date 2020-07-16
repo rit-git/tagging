@@ -1,8 +1,9 @@
-CUDA=0
+CUDA=3
 
-for dataset in "SUPPORT" "AGAINST"
+mkdir log
+for dataset in "SUGG"
 do
-    DATA_DIR="/home/ubuntu/users/jinfeng/tagging/data/${dataset}"
+    DATA_DIR="../../data/${dataset}"
     MODEL_DIR="./model/${dataset}/seed_${rand_seed}"
     LOG_FILE_PATH="./log/roberta.log"
     echo "" >> ${LOG_FILE_PATH}
