@@ -69,4 +69,5 @@ for i in range(len(predicted_proba)):
     text = X_dev[i]
     ground = y_dev[i]
     result.append([score_0, score_1, predict, text, ground])
+
 csv_handler.csv_writelines(output_path, result)
