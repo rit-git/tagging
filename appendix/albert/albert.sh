@@ -1,5 +1,6 @@
-CUDA=2
+CUDA=3
 
+mkdir log
 for dataset in "SUGG" 
 do
     DATA_DIR="/home/ubuntu/users/jinfeng/tagging/data/${dataset}"
