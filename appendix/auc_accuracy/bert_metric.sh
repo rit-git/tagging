@@ -1,10 +1,10 @@
 CUDA=3
 
-for dataset in "semeval20_task6" 
+for dataset in "SUGG" 
 #for dataset in "SUGG" "HOTEL" "SENT" "PARA" "FUNNY_400K" "HOMO" "HETER" "TV" "BOOK_400K" "EVAL" "REQ" "FACT" "REF" "QUOTE" "ARGUE" "SUPPORT" "AGAINST" "AMAZON_400K" "YELP" "FUNNY_STAR" "BOOK_STAR" 
 #for dataset in "SUGG" "HOTEL" "SENT" "PARA" "HOMO" "HETER" "TV" "EVAL" "REQ" "FACT" "REF" "QUOTE" "ARGUE" "SUPPORT" "AGAINST"
 do
-    DATA_DIR="/home/ubuntu/users/jinfeng/tagging/data/${dataset}"
+    DATA_DIR="../../data/${dataset}"
     MODEL_DIR="./model/${dataset}"
     LOG_FILE_PATH="./result/bert.log"
     SEED=1000
