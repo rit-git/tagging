@@ -1,8 +1,8 @@
 CUDA=3
-
-for dataset in "book_spoiler"
+mkdir log
+for dataset in "SUGG"
 do
-    DATA_DIR="/home/ubuntu/users/jinfeng/tip/data/${dataset}"
+    DATA_DIR="../../data/${dataset}"
     MODEL_DIR="./model/${dataset}"
     LOG_FILE_PATH="./log/bert.log"
     echo "" >> ${LOG_FILE_PATH}
