@@ -1,6 +1,6 @@
 mkdir result
 #echo "Dataset,precision,recall,f1, auc, accuracy" > result/lr.csv
-for dataset in "SEMEVAL20_TASK6_NER" 
+for dataset in "SUGG" 
 #for dataset in "SUGG" "HOTEL" "SENT" "PARA" "FUNNY_400K" "HOMO" "HETER" "TV" "BOOK_400K" "EVAL" "REQ" "FACT" "REF" "QUOTE" "ARGUE" "SUPPORT" "AGAINST" "AMAZON_400K" "YELP" "FUNNY_STAR" "BOOK_STAR" 
 do
     DATA_DIR="../../../tagging/data/${dataset}"
