@@ -21,7 +21,7 @@ start_time = time.time()
 train_set = csv_handler.csv_readlines(sys.argv[1])
 dev_set = csv_handler.csv_readlines(sys.argv[2])
 max_seq_length = int(sys.argv[3])
-batch_size = 32
+batch_size = 32 
 log_file_path = sys.argv[4]
 
 class Embedder:
