@@ -1,4 +1,4 @@
-CUDA=1
+CUDA=3
 mkdir result
 echo "Dataset,precision,recall,f1,train_time(s),test_time(s)" > result/bert.csv
 for dataset in "SUGG" 
@@ -24,7 +24,7 @@ do
         --max_seq_length 128 \
         --train_batch_size 32 \
         --learning_rate 2e-5 \
-        --num_train_epochs 5.0 \
+        --num_train_epochs 3.0 \
         --output_dir $LOG_DIR \
         --log_file_path $LOG_FILE_PATH
 
