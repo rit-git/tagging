@@ -9,11 +9,8 @@ do
     LOG_DIR="./result/${dataset}"
     LOG_FILE_PATH="./result/bert.csv"
 
-    # LOG_DIR=/home/ubuntu/users/jinfeng/tmp/$TASK_NAME/
     rm -rf $LOG_DIR
 
-    #python -m pdb tip_run_classifier.py \
-    #python tip_run_classifier.py \
     CUDA_VISIBLE_DEVICES=${CUDA} python ../model/bert.py \
         --task_name $TASK_NAME \
         --do_train \
