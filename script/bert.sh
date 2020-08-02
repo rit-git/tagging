@@ -1,12 +1,13 @@
-CUDA=3
+CUDA=1
 mkdir result
+mkdir model
 echo "Dataset,precision,recall,f1,train_time(s),test_time(s)" > result/bert.csv
 for dataset in "SUGG" 
 do
     dataset="${dataset}"
     export TASK_NAME=SST-2
     DATA_DIR="../data/${dataset}"
-    LOG_DIR="./result/${dataset}"
+    LOG_DIR="./model/${dataset}"
     LOG_FILE_PATH="./result/bert.csv"
 
     rm -rf $LOG_DIR
