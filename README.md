@@ -1,5 +1,6 @@
 # Tagging
 An experimental comparison of deep and simple models for semantic tagging 
+
 21 distinctive datasets were used and they are available under folder data/
 
 # Dataset
@@ -78,7 +79,7 @@ An experimental comparison of deep and simple models for semantic tagging
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
 # Reference 
-**[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
+**[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020 Tokyo September)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
 
     @article{DBLP:journals/pvldb/LiL0T20,
         author    = {Jinfeng Li and
