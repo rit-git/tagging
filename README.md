@@ -74,5 +74,24 @@ An experimental comparison of deep and simple models for semantic tagging
 
     cat result/bert.csv
 
+-Step 4: More deep and simple models are under folder script/ and appendix/
+
 # Reference 
-**[Deep or Simple models for Semantic Tagging? It Depends on your Data](https://arxiv.org/abs/2007.05651)**
+**[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
+
+    @article{DBLP:journals/pvldb/LiL0T20,
+        author    = {Jinfeng Li and
+                     Yuliang Li and
+                     Xiaolan Wang and
+                     Wang{-}Chiew Tan},
+        title     = {Deep or Simple Models for Semantic Tagging? It Depends on your Data},
+        journal   = {Proc. {VLDB} Endow.},
+        volume    = {13},
+        number    = {11},
+        pages     = {2549--2562},
+        year      = {2020},
+        url       = {http://www.vldb.org/pvldb/vol13/p2549-li.pdf},
+        timestamp = {Tue, 24 Nov 2020 14:44:02 +0100},
+        biburl    = {https://dblp.org/rec/journals/pvldb/LiL0T20.bib},
+        bibsource = {dblp computer science bibliography, https://dblp.org}
+
