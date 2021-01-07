@@ -1,4 +1,4 @@
-# Tagging
+# 🔥 Semantic Tagging Benchmark
 An experimental comparison of deep and simple models for semantic tagging 
 
 21 distinctive datasets were used and they are available under folder data/
