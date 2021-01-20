@@ -80,6 +80,9 @@ The datasets can also be used for broader NLP tasks including text/intent classi
 
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
+## Results
+<img src="resource/heatmap.pdf">
+
 ## Citation
 **[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020 Sep., Tokyo)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
 
