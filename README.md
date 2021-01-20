@@ -3,6 +3,8 @@ An experimental comparison of deep and simple models for semantic tagging
 
 21 distinctive datasets were used and they are available under folder data/
 
+The datasets can also be used for broader NLP tasks including text/intent classification and information extraction
+
 ## Dataset
 
 | Dataset | #Record | %Positive | Quality | Task       |
