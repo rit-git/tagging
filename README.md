@@ -80,7 +80,7 @@ The datasets can also be used for broader NLP tasks including text/intent classi
 
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
-## Results
+## Main Results
 <img src="resource/heatmap.png" width=440 height=500>
 
 ## Citation
