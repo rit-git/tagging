@@ -84,6 +84,8 @@ The datasets can also be used for broader NLP tasks including text/intent classi
 <img src="resource/heatmap.png" width=450 height=500>
 
 ## Citation
+We will be thrilled and grateful if this repository is helpful and you cite the following paper: 
+
 **[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020 Sep., Tokyo)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
 
     @article{DBLP:journals/pvldb/LiL0T20,
