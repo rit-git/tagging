@@ -1,3 +1,5 @@
+import pdb
+
 import sys
 import click
 import os
@@ -7,7 +9,7 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import precision_recall_fscore_support
 
 if 'TAGGING_HOME' in os.environ:
-    pyfunctor_path = os.path.join(os.environ['TAGGING_HOME'], '/pyfunctor')
+    pyfunctor_path = os.environ['TAGGING_HOME'] + "/pyfunctor"
     sys.path.append(pyfunctor_path)
 else:
     sys.exit("please declara environment variable 'TAGGING_HOME'")
@@ -68,16 +70,13 @@ def evaluate(input_path, col_true, col_pred, metric, output_path, with_header):
 
 @click.command()
 @click.argument('input_path')
+@click.argument('model_dir')
 @click.option('-c', '--text_col', default = 2, help='Specify the column of texts, 2 by default')
 @click.option('-o', '--output_path', default = "", help='Write output to a file instead of stdout')
-@click.option('-m', '--model_dir',  default = '', help='Load a model for estimation or use company model if not specified')
 @click.option('-g', '--gpu',  default = "0", help='Assign a GPU for estimation')
 @click.option('-w', '--with_header', is_flag=True, help='If set, the first row will be ignored')
-def estimate(input_path, text_col, output_path, model_dir, gpu, with_header):
+def estimate(input_path, model_dir, text_col, output_path, gpu, with_header):
     '''output non-salient probability, salient probability and predicted argmax class '''
-
-    if model_dir == "":
-        model_dir = os.path.join(os.environ['FACTMINE_HOME'], './cache/company_model')
 
     bert_estimate(input_path, text_col, output_path, model_dir, gpu, with_header)
 

@@ -96,7 +96,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
     tagging finetune ./data/SUGG/train.csv ./SUGG_model
 
--Step 6: predict (e.g. your dataset) 
+-Step 6: predict (e.g. on your dataset) using trained model
 
     tagging estimate ./data/SUGG/dev.csv ./SUGG_model -o result.csv
 
