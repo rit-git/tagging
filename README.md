@@ -115,9 +115,13 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 ## Programmer Usage
 
--Step 1 - 4: same as Experiment
+-Step 1 - 3: same as Experiment
 
--Step 5: programming
+-Step 4: set up
+
+    export TAGGING_HOME=`pwd`
+
+-Step 5: programming in python
 
 ```python
 import sys
@@ -157,3 +161,7 @@ We will be thrilled if you find this repository helpful and cite the following p
         timestamp = {Tue, 24 Nov 2020 14:44:02 +0100},
         biburl    = {https://dblp.org/rec/journals/pvldb/LiL0T20.bib},
         bibsource = {dblp computer science bibliography, https://dblp.org}
+
+## Contact
+
+If you have any questions or suggestions, please submit a Github issue or contact Jinfeng Li (jinfeng@megagon.ai)
