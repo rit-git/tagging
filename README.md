@@ -94,7 +94,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
     
 -Step 5: train a BERT model (e.g. using SUGG for Tip Mining)
 
-    tagging finetune ./data/SUGG/train.csv
+    tagging finetune ./data/SUGG/train.csv ./SUGG_model
 
 -Step 6: predict (e.g. your dataset) 
 
