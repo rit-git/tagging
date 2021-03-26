@@ -76,7 +76,7 @@ def evaluate(input_path, col_true, col_pred, metric, output_path, with_header):
 @click.option('-g', '--gpu',  default = "0", help='Assign a GPU for estimation')
 @click.option('-w', '--with_header', is_flag=True, help='If set, the first row will be ignored')
 def estimate(input_path, model_dir, text_col, output_path, gpu, with_header):
-    '''output non-salient probability, salient probability and predicted argmax class '''
+    '''output negative-class probability, positive-class probability and predicted argmax class '''
 
     bert_estimate(input_path, text_col, output_path, model_dir, gpu, with_header)
 
