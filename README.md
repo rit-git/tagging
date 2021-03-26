@@ -104,11 +104,11 @@ Update 03/25/2021: added example usage for non-programmers and programmers
     
     tagging evaluate --metric f1 ./result.csv 3 6
 
--Step 8: More information about the tagging command can be found by
+-Step 8: More information about the tagging command can be found at result.csv or by
 
     tagging --help
 
-    tagging finetune --help
+    tagging evaluate --help
 
 ## Programmer Usage
 
