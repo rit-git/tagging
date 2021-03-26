@@ -126,7 +126,7 @@ from nlp.bert_predict import BertModel
 # train a model
 train_set = csv_handler.csv_readlines('./data/SUGG/train.csv')
 model = BertModel('bert-base-uncased')
-model.train(train_set)
+model.train(train_set, num_epoch = 3)
 
 # run semantic tagging 
 dev_set = csv_handler.csv_readlines('./data/SUGG/dev.csv')
