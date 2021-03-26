@@ -53,7 +53,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 - transformers 2.3.0
 - xgboost 1.1.0
 
-## Experiment
+## Research Usage or Experiment
 -Step 1: clone the repository
 
     git clone --recursive https://github.com/rit-git/tagging.git
@@ -87,7 +87,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 ## Non-programmer Usage
 
--Step 1 - 3: same as Experiment 
+-Step 1 - 3: same as Research Usage 
 
 -Step 4: install
     
@@ -115,7 +115,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 ## Programmer Usage
 
--Step 1 - 3: same as Experiment
+-Step 1 - 3: same as Research Usage 
 
 -Step 4: set up
 
