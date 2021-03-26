@@ -82,6 +82,9 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
+## Main Results
+<img src="resource/heatmap.png" width=450 height=500>
+
 ## Non-programmer Usage
 
 -Step 1 - 3: same as Experiment 
@@ -133,8 +136,6 @@ dev_set = csv_handler.csv_readlines('./data/SUGG/dev.csv')
 pred = model.predict(dev_set)
 ```
 -Step 6: each row of pred is [score\_neg, score\_pos, argmax_class, text] 
-## Main Results
-<img src="resource/heatmap.png" width=450 height=500>
 
 ## Citation
 We will be thrilled if you find this repository helpful and cite the following paper: 
