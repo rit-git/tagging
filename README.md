@@ -5,6 +5,8 @@ An experimental comparison of deep and simple models for semantic tagging
 
 The datasets can also be used for broader NLP tasks including text/intent classification and information extraction
 
+Update 03/25/2021: added example usage for non-programmers and programmers
+
 ## Dataset
 
 | Dataset | #Record | %Positive | Quality | Task       |
@@ -51,7 +53,7 @@ The datasets can also be used for broader NLP tasks including text/intent classi
 - transformers 2.3.0
 - xgboost 1.1.0
 
-## Run
+## Usage for Experiments
 -Step 1: clone the repository
 
     git clone --recursive https://github.com/rit-git/tagging.git
@@ -80,11 +82,62 @@ The datasets can also be used for broader NLP tasks including text/intent classi
 
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
+## Usage for Non-programmers
+
+-Step 1 - 3: same as Usage for Experiments 
+
+-Step 4: install
+    
+    pip install -e .
+
+    export TAGGING_HOME=`pwd`
+    
+-Step 5: train a BERT model (e.g. using SUGG for Tip Mining)
+
+    tagging finetune ./data/SUGG/train.csv
+
+-Step 6: predict (e.g. your dataset) 
+
+    tagging estimate ./data/SUGG/dev.csv -o result.csv
+
+-Step 7: evaluate predictions
+    
+    tagging evaluate --metric f1 ./result.csv 3 6
+
+-Step 8: More information about the tagging command can be found by
+
+    factmine --help
+
+    factmine finetune --help
+
+## Usage for Programmers
+
+-Step 1 - 4: same as Usage for Non-programmers 
+
+-Step 5: programming
+
+```python
+import sys
+import os
+sys.path.insert(0, os.environ['TAGGING_HOME'])
+sys.path.insert(0, os.environ['TAGGING_HOME'] + "/pyfunctor")
+import csv_handler as csv_handler
+from nlp.bert_predict import BertModel
+
+# train a model
+train_set = csv_handler.csv_readlines(./data/SUGG/train.csv)
+model = BertModel('bert-base-uncased')
+model.train(train_set)
+
+# run semantic tagging 
+dev_set = csv_handler.csv_readlines(./data/SUGG/dev.csv)
+pred = model.predict(dev_set)
+```
 ## Main Results
 <img src="resource/heatmap.png" width=450 height=500>
 
 ## Citation
-We will be thrilled and grateful if you find this repository helpful and cite the following paper: 
+We will be thrilled if you find this repository helpful and cite the following paper: 
 
 **[Deep or Simple models for Semantic Tagging? It Depends on your Data (PVLDB 2020 Sep., Tokyo)](http://www.vldb.org/pvldb/vol13/p2549-li.pdf)**
 
