@@ -136,8 +136,8 @@ model = BertModel('bert-base-uncased')
 model.train(train_set, num_epoch = 3)
 
 # deploy the trained model on your dataset
-dev_set = csv_handler.csv_readlines('./data/SUGG/dev.csv')
-pred = model.predict(dev_set)
+your_dataset = csv_handler.csv_readlines('./data/SUGG/dev.csv')
+pred = model.predict(your_dataset)
 ```
 -Step 6: each row of pred is [score\_neg, score\_pos, argmax_class, text] 
 
