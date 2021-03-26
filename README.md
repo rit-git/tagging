@@ -112,7 +112,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 ## Programmer Usage
 
--Step 1 - 4: same as Usage for Non-programmers 
+-Step 1 - 4: same as Experiment
 
 -Step 5: programming
 
