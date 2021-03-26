@@ -98,7 +98,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 -Step 6: predict (e.g. your dataset) 
 
-    tagging estimate ./data/SUGG/dev.csv -o result.csv
+    tagging estimate ./data/SUGG/dev.csv ./SUGG_model -o result.csv
 
 -Step 7: evaluate predictions
     
@@ -119,7 +119,6 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 ```python
 import sys
 import os
-sys.path.insert(0, os.environ['TAGGING_HOME'])
 sys.path.insert(0, os.environ['TAGGING_HOME'] + "/pyfunctor")
 import csv_handler as csv_handler
 from nlp.bert_predict import BertModel
