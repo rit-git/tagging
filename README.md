@@ -53,7 +53,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 - transformers 2.3.0
 - xgboost 1.1.0
 
-## Usage for Experiments
+## Experiment
 -Step 1: clone the repository
 
     git clone --recursive https://github.com/rit-git/tagging.git
@@ -82,9 +82,9 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 -Step 5: More deep and simple models can be found under folders script/ and appendix/
 
-## Usage for Non-programmers
+## Non-programmer Usage
 
--Step 1 - 3: same as Usage for Experiments 
+-Step 1 - 3: same as Experiment 
 
 -Step 4: install
     
@@ -110,7 +110,7 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
     factmine finetune --help
 
-## Usage for Programmers
+## Programmer Usage
 
 -Step 1 - 4: same as Usage for Non-programmers 
 
