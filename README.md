@@ -106,9 +106,9 @@ Update 03/25/2021: added example usage for non-programmers and programmers
 
 -Step 8: More information about the tagging command can be found by
 
-    factmine --help
+    tagging --help
 
-    factmine finetune --help
+    tagging finetune --help
 
 ## Programmer Usage
 
