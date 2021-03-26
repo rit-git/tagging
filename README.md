@@ -135,7 +135,7 @@ train_set = csv_handler.csv_readlines('./data/SUGG/train.csv')
 model = BertModel('bert-base-uncased')
 model.train(train_set, num_epoch = 3)
 
-# run semantic tagging 
+# deploy the trained model on your dataset
 dev_set = csv_handler.csv_readlines('./data/SUGG/dev.csv')
 pred = model.predict(dev_set)
 ```
