@@ -1,11 +1,9 @@
 # 🔥 Semantic Tagging Benchmark
-An experimental comparison of deep and simple models for semantic tagging 
+A tool box of deep and simple models for semantic tagging (e.g. [Tips from customer reviews at Amazon](https://www.amazon.com/Steam-Mop-Cleaner-ThermaPro-System/dp/B077S6KQ88/ref=sr_1_3_sspa?dchild=1&keywords=steam+mop&qid=1623340919&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUlA3WDdKRDU2SEVBJmVuY3J5cHRlZElkPUEwNDc3ODYzMk9JWUw1MldGU01JNyZlbmNyeXB0ZWRBZElkPUEwMjA5MzA4MUhXU1ozRlEyUExLMCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=))
 
-21 distinctive datasets were used and they are available under folder data/
+There are 21 distinctive datasets that contain open labels for various tagging tasks 
 
-The datasets can also be used for broader NLP tasks including text/intent classification and information extraction
-
-Update 03/25/2021: added example usage for non-programmers and programmers
+The datasets can be used for broader NLP tasks including text/intent classification and information extraction
 
 ## Dataset
 
