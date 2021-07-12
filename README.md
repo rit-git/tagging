@@ -31,6 +31,11 @@ The datasets can be used for broader NLP tasks including text/intent classificat
 | AMAZON  | 4M      | 0.50      | clean   | Sentiment  |
 | YELP    | 560K    | 0.50      | clean   | Sentiment  |
 
+## More Datasets
+| Dataset | #Record | %Positive | Quality | Task       |
+|---------|---------|-----------|---------|------------|
+| PRODUCT_TIP | 85k | 0.05      | clean   | Tip        |
+
 ## Model
 - BERT (Bidirectional Encoder representations from Transformers)
 - LSTM (Long Short-Term Memory)
