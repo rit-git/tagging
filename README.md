@@ -9,7 +9,7 @@ The datasets can be used for broader NLP tasks including text/intent classificat
 
 | Dataset | #Record | %Positive | Quality | Task       |
 |---------|---------|-----------|---------|------------|
-| SUGG    | 9K      | 0.26      | clean   | Tip        |
+| [SUGG](/data/SUGG) | 9K      | 0.26      | clean   | Tip        |
 | HOTEL   | 8K      | 0.05      | clean   | Tip        |
 | SENT    | 11k     | 0.10      | clean   | Tip        |
 | PARA    | 7K      | 0.17      | clean   | Tip        |
