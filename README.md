@@ -35,6 +35,7 @@ The datasets can be used for broader NLP tasks including text/intent classificat
 | Dataset | #Record | %Positive | Quality | Task       |
 |---------|---------|-----------|---------|------------|
 | [PRODUCT_TIP](/data/PRODUCT_TIP) | 85k | 0.05      | clean   | Tip        |
+| [AMAZON_HELP](/data/AMAZON_HELP) | 22k | 0.45      | clean   | Helpful |
 
 ## Model
 - BERT (Bidirectional Encoder representations from Transformers)
