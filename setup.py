@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'click', 
         'sklearn',
-        'transformers == 4.2.2',
+        'transformers == 4.30.0',
     ],
     python_requires='>=3.6',
     entry_points='''
